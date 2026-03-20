@@ -1,10 +1,4 @@
 
-body {
-  background-image: url("../images/For.jpg"); /* ваш путь */
-  background-size: cover;           /* масштабирует картинку так, чтобы она полностью покрывала экран */
-  background-repeat: no-repeat;     /* отключает повторение */
-  background-position: center;      /* центрирует изображение */
-  min-height: 100vh;                /* минимальная высота body на весь видимый экран */
-  margin: 0;                        /* убирает отступы по умолчанию */
-  padding: 0;                       /* убирает внутренние отступы */
+.header {
+    background: url("../images/For.jpg") center / cover no-repeat;
 }
