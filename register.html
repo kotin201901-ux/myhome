@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Расширенная форма</title>
+</head>
+<body>
+    <h1>Анкета</h1>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="about.html">Статьи</a>
+            <a href="contacts.html">Контакты</a>
+            <a href="table.html">Таблицы</a>
+            <a href="register.html">Таблицы</a>
+        </nav>
+    <form>
+        <p>
+            <label for="fullname">ФИО:</label><br>
+            <input type="text" id="fullname" name="fullname" required>
+        </p>
+
+        <p>
+            <label for="birthdate">Дата рождения:</label><br>
+            <input type="date" id="birthdate" name="birthdate">
+        </p>
+
+        <p>
+            <label for="phone">Телефон:</label><br>
+            <input type="tel" id="phone" name="phone">
+        </p>
+
+        <p>
+            Пол:<br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Мужской</label>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Женский</label>
+        </p>
+
+        <p>
+            <label for="city">Город:</label><br>
+            <select id="city" name="city">
+                <option>Москва</option>
+                <option>Минск</option>
+                <option>Киев</option>
+                <option>Берлин</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="about">О себе:</label><br>
+            <textarea id="about" name="about" rows="5" cols="30"></textarea>
+        </p>
+
+        <p>
+            <input type="checkbox" id="agree" name="agree">
+            <label for="agree">Я согласен с условиями</label>
+        </p>
+
+        <button type="submit">Сохранить</button>
+    </form>
+</body>
+    <footer>
+        <p>© 2026 Мой учебный сайт</p>
+    </footer>
+</html>
